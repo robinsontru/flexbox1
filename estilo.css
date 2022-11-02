@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+.robin {
+    display: flex;
+    border: solid 1px black;
+    background-color: azure;
+    flex-direction:  column-reverse;
+
+    /* flex-flow:  contiene o funciona con la de irecion y espasio de; */
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
+    width: 120px;
+    line-height: 120px;
+}
+
+.caja {
+
+    border: solid 1px;
+    color: black;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.caja1 {
+    background-color: darkgrey;
+    border: solid black;
+}
+
+.caja2 {
+    background-color: darkgrey;
+    border: solid black;
+}
+
+.caja3 {
+    background-color: darkgrey;
+    border: solid black;
+}
+
+.caja4 {
+    background-color: darkgray;
+    border: solid black;
+}
